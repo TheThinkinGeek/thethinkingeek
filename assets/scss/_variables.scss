@@ -1,0 +1,21 @@
+// Default Values
+$RegularFontSize: 16px;
+
+// Font Codes
+$OpenSans: 400 $RegularFontSize "Open Sans", sans-serif;
+
+//mixins
+@mixin fullscreen($isHTML) {
+  width:100%;
+  height:100%;
+  @if $isHTML {
+    height:100vh;
+  }
+}
+@mixin quickAnimation() {
+  transition: ease all 0.2s;
+}
+//classes
+.inline-block{
+  display: inline-block;
+}
