@@ -36,7 +36,7 @@ masthead{
     z-index: 0;
     position: absolute;
     background: #fff;
-    opacity: 0.5;
+    opacity: 0.55;
   }
   .targets{
     align-self: center;
@@ -67,6 +67,7 @@ masthead{
   .prelude{
     margin:5px;
     b{
+      font-weight: 400;
       display: inline-block;
     }
   }

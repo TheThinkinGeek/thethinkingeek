@@ -14,7 +14,7 @@ app-root{
   @include fullscreen(false);
   //overflow-y: scroll;
   background-image: url('assets/img/masthead.jpg');
-  background-position: center;
+  background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
   background-clip: padding-box;
@@ -50,4 +50,8 @@ header, section{
 .app::-webkit-scrollbar-thumb
 {
 	background-color: rgba(0,0,0,1);
+}
+::selection{
+  color: #fff;
+  background: #000;
 }
