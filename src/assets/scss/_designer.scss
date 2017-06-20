@@ -1,0 +1,13 @@
+.designer{
+  background: #fff;
+}
+designer{
+  @include fullscreen(false);
+  display: flex;
+  position: relative;
+  z-index: 0;
+  background: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

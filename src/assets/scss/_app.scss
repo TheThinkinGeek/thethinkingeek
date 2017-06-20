@@ -1,0 +1,57 @@
+body{
+  font: $OpenSans;
+  @include fullscreen(false);
+  margin:0;
+}
+html{
+  @include fullscreen(true);
+}
+app-root{
+  display: block;
+  @include fullscreen(false);
+}
+.app{
+  @include fullscreen(false);
+  //overflow-y: scroll;
+  background-image: url('assets/img/masthead.jpg');
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-origin: padding-box;
+  background-attachment: absolute;
+  overflow-x:hidden;
+}
+.list-inline{
+  list-style: none;
+  padding:5px;
+  li{
+    display: inline-block;
+  }
+}
+header, section{
+  @include fullscreen(false);
+  display: block;
+  position: relative;
+  z-index: 0;
+  display: flex;
+}
+.app::-webkit-scrollbar-track
+{
+	background-color: rgba(255,255,255,0.9);
+}
+
+.app::-webkit-scrollbar
+{
+	width: 3px;
+	background-color: transparent;
+}
+
+.app::-webkit-scrollbar-thumb
+{
+	background-color: rgba(0,0,0,1);
+}
+::selection{
+  color: #fff;
+  background: #000;
+}
