@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MastheadComponent implements OnInit {
 
+  public introTextOpacity: Number;
+
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }

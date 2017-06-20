@@ -2,6 +2,7 @@ body{
   font: $OpenSans;
   @include fullscreen(false);
   margin:0;
+  overflow: hidden;
 }
 html{
   @include fullscreen(true);
@@ -12,7 +13,7 @@ app-root{
 }
 .app{
   @include fullscreen(false);
-  //overflow-y: scroll;
+  overflow-y: scroll;
   background-image: url('assets/img/masthead.jpg');
   background-position: bottom center;
   background-size: cover;
@@ -54,4 +55,7 @@ header, section{
 ::selection{
   color: #fff;
   background: #000;
+}
+.container{
+  margin:25px 300px;
 }

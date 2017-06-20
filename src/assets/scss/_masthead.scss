@@ -36,7 +36,11 @@ masthead{
     z-index: 0;
     position: absolute;
     background: #fff;
-    opacity: 0.55;
+    opacity: 0.3;
+  }
+  .logo{
+    width:200px;
+    align-self: center;
   }
   .targets{
     align-self: center;
@@ -63,6 +67,25 @@ masthead{
       font-size: 2.1rem;
     }
 
+  }
+  .simple-btn{
+    font-size: 0.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:rgba(255,255,255,1);
+    align-self: center;
+    padding: 10px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.3);
+    user-select: none;
+    cursor: pointer;
+  }
+  .simple-btn:hover{
+    background: rgba(0,0,0,0.5);
+  }
+  .simple-btn:active{
+    background: rgba(0,0,0,0.7)
   }
   .prelude{
     margin:5px;
