@@ -14,13 +14,6 @@ app-root{
 .app{
   @include fullscreen(false);
   overflow-y: scroll;
-  background-image: url('assets/img/masthead.jpg');
-  background-position: bottom center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-clip: padding-box;
-  background-origin: padding-box;
-  background-attachment: absolute;
   overflow-x:hidden;
 }
 .list-inline{
